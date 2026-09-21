@@ -1,0 +1,31 @@
+# Dependencies (installed via Mautic core / Composer, not committed here)
+/vendor/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local env / build
+.env
+.env.local
+*.log
+/build/
+/dist/
+
+# Do not commit packaged archives
+*.zip
+
+# Internal AI-assistant project memory/config — not needed to build, install,
+# or contribute to the plugin; kept locally only.
+/CLAUDE.md
+/AGENTS.md
+/GEMINI.md
+.cursorrules
+.cursor/
+.windsurfrules
+.clinerules
+.aider*
+.github/copilot-instructions.md

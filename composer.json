@@ -1,0 +1,26 @@
+{
+    "name": "acolono/mautic-bulk-mailer-bundle",
+    "description": "Send a template email to an ad-hoc recipient list (CSV/Excel) repeatedly, with per-contact logging.",
+    "type": "mautic-plugin",
+    "keywords": ["mautic", "mautic-plugin", "email", "bulk", "csv"],
+    "homepage": "https://acolono.com",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "acolono GmbH",
+            "homepage": "https://acolono.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "mautic/core-lib": "^7.0"
+    },
+    "extra": {
+        "install-directory-name": "AcolonoBulkMailerBundle"
+    },
+    "autoload": {
+        "psr-4": {
+            "MauticPlugin\\AcolonoBulkMailerBundle\\": ""
+        }
+    }
+}
